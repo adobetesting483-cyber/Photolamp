@@ -1,0 +1,13 @@
+schemaVersion: "1.1"
+metadata:
+  name: Photolamp
+  displayName: Photolamp Bot
+spec:
+  type: Service
+  build:
+    buildPack:
+      name: Dockerfile
+  service:
+    port: 8080
+    protocol: HTTP
+    basePath: /
